@@ -1,7 +1,173 @@
+.container-1 {
+  display: flex;
 
-.one ,.five{
-background-color: #1f2937;
+  background-color: #1f2937;
+  align-items: baseline;
+  justify-content: center;
+}
+.item-1 {
+  color: #f9faf8;
+  flex-basis: 800px;
+}
+.headerlinks {
+  color: #f9faf8;
+
+  padding: 20px;
+}
+.container-2 {
+  background-color: #1f2937;
+  display: flex;
+  border: 0px solid red;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+.item-3 {
+  justify-items: flex-start;
+  border: 0px solid green;
+  width: 370px;
+}
+.item-5 {
+  justify-items: center;
+  border: 0px solid green;
+  color: #f9faf8;
+  background-color: #898a8e;
+  width: 650px;
+  height: 100%x;
+  padding: 20px;
+  align-content: center;
+}
+
+.two {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* space between cards */
+}
+
+#two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.empty {
+  border: 2px solid rgb(76, 54, 240);
+  height: 100px;
+  width: 160px;
+  border-radius: 12px;
+}
+
+#subtext {
+  margin-top: 8px;
+  width: 160px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.ten {
+  justify-content: center;
+  align-content: center;
+  font-size: 22px;
 }
 #six {
-    font: 48px #f9faf8;
+  color: #e5e7eb;
+}
+.six {
+  font-size: 36px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+#nine {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
+}
+
+.ten {
+  display: flex;
+  border: 0px solid red;
+}
+.two {
+  display: flex;
+  border: 0px solid red;
+}
+#food {
+  border: 0px solid red;
+}
+
+.container-3 {
+  border: 0px solid red;
+}
+.food {
+  border: 4px solid red;
+}
+
+.quote {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #e5e7eb;
+}
+
+#quote p {
+  display: inline-block;
+  width: 800px;
+  text-align: left;
+  margin: 0 auto 10px auto;
+  font-style: "light italic";
+  font-size: 36px;
+  color: #1f2937;
+}
+
+#quata p {
+  text-align: right;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.four {
+  display: flex;
+  justify-content: center;
+  border: 0px solid red;
+  padding: 100px;
+}
+#four {
+  width: 1000px;
+  border: 0px solid red;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  /*margin: 20px;*/
+  border-radius: 12px;
+  height: 100px;
+}
+#cook {
+  border: 0px solid yellow;
+  width: 400px;
+  color: #f9faf8;
+}
+#cooked {
+  border: 0px solid purple;
+  align-content: center;
+}
+#cooker {
+  color: #e5e7eb;
+}
+#twelve {
+  color: white;
+  border-radius: 5px;
+  background-color: #3882f6;
+  border: 2px solid white;
+}
+
+.five {
+  border: 0px solid red;
+  background-color: #1f2937;
+  height: 100px;
+  align-content: center;
+}
+#five {
+  color: #f9faf8;
+  border: 0px solid red;
+  margin: 0 auto;
+  width: 220px;
 }
